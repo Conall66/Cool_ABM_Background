@@ -5,7 +5,6 @@ Build a simple simulation of a series of agents with attractive and repulsive fo
 
 # ================================================================
 # Import libraries
-# Testing
 
 # Numerical libraries
 import numpy as np
@@ -36,7 +35,7 @@ NUM_AGENTS = 100
 AGENT_TYPES = 3
 REPEL = 5000
 ATTRACT = 5000 # These will be overriden by slider on GUI
-INTERACTION_RADIUS = 100
+INTERACTION_RADIUS = 200
 AGENT_RADIUS = 5
 MAX_SPEED = 150
 MIN_SPEED = 50
